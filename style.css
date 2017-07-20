@@ -1,4 +1,4 @@
-html{
+html {
   overflow-y: scroll;
   overflow-x: auto;
 }
@@ -6,8 +6,7 @@ html{
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
-	padding-top: 81px;
-/*	background-color: #006600;*/
+	background-image: url("imgs/bg-main.png");
 }
 
 ul, li, span {
@@ -39,6 +38,93 @@ a {
 	border: 1px solid red;
 }
 
+.container, 
+.container-fluid {
+	padding-right: 70px; 
+	padding-left: 70px;
+}
+
+.header {
+	color: #ffffff;
+	padding-left: 70px;
+	padding-right: 70px;
+	opacity: 0.8;
+}
+
+.header .col-md-12 {
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+.header img {
+	float: left;
+}
+
+.header .right-side {
+	float: right;
+}
+
+.header button {	
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	/*margin-right: 20px;*/
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: #fff;
+	border: 2px solid #7B254C;
+	color: #AE3266;
+	border-radius: 5px;
+	margin-left: auto;
+} 
+
+.header button:hover {	
+	background-color: #68615D;
+	color: #fff;
+	border: 2px solid black;
+} 
+
+.header .phone-digits {
+	font-size: 36px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.header .glyphicon-earphone {
+	font-size: 25px;
+	color: #7B2566;
+}
+
+.phone-digits-wrap {
+	display: flex;
+}
+
+.phone-digits {
+	color: #7B2566;
+}
+
+.menu-wrapper {
+	margin-top: 20px;
+	margin-left: auto;
+	font-size: 22px;
+}
+
+.menu-wrapper a {
+	background-color: #CD4375;
+	color: #fff;
+	padding: 5px 17px;
+	border-radius: 5px;
+	border: 1px solid #AE3266;
+}
+
+.menu-wrapper a:hover {
+	text-decoration: none;
+	background-color: #fff;
+	color: #7B2566;
+	border: 1px solid black;
+}
+
+.cons-phone {
+	margin-left: 15px;
+}
 
 /*Модальное окно Bootstrap*/
 .modal-title {
@@ -110,6 +196,30 @@ a {
 
 @media screen and (min-device-width: 768px) {
 	
+}
+
+@media screen and (min-device-width: 992px) {
+	.header {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.container, 
+	.container-fluid {
+		padding-right: 15px; 
+		padding-left: 15px;
+	}
+}
+
+@media screen and (min-device-width: 1366px) {
+	.header {
+		padding-left: 70px;
+		padding-right: 70px;
+	}
+	.container, 
+	.container-fluid {
+		padding-right: 70px; 
+		padding-left: 70px;
+	}	
 }
 
 

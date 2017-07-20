@@ -9,9 +9,9 @@
     
     <title>Клиника №1 ЛаЛин</title>
     
-<!--     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
-    <link rel="shortcut icon" href="/imgs/fav.png" type="image/png">
+    <link rel="shortcut icon" href="imgs/fav.png" type="image/png">
     <link type="text/css" rel="stylesheet" href="css/lightgallery.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">    
     <link href="style.css" rel="stylesheet">
@@ -44,7 +44,7 @@
         });
     </script>
     <style>
-        body{
+        body {
           padding-right: 0 !important;     
         }
         @font-face {
