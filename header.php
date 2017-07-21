@@ -20,3 +20,16 @@
         </div>
     </div>
 </div>
+
+<nav class="navbar navbar-default navbar-fixed-top visible-xs-block visible-sm-block">
+    <div class="container-fluid header">
+        <div class="burger-menu hidden-md hidden-lg"></div>
+        <a href="index.php" class="logo-wrapper"></a>
+        <div class="phones-wrapper text-right">
+            <div>
+                <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>&nbsp;
+                <span class="phone-digits">(863) 296 02 60</span> 
+            </div>
+        </div>
+    </div>
+</nav>

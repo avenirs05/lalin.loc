@@ -48,10 +48,10 @@ a {
 }
 
 .header {
-	color: #ffffff;
+	/*color: #ffffff;*/
 /*	padding-left: 70px;
 	padding-right: 70px;*/
-	opacity: 0.8;
+	/*opacity: 0.8;*/	
 }
 
 .header .col-md-12 {
@@ -74,7 +74,7 @@ a {
 	padding-left: 15px;
 	padding-right: 15px;
 	background-color: #fff;
-	border: 2px solid #7B254C;
+	border: 1px solid #7B254C;
 	color: #AE3266;
 	border-radius: 5px;
 	margin-left: auto;
@@ -83,7 +83,7 @@ a {
 .header button:hover {	
 	background-color: #68615D;
 	color: #fff;
-	border: 2px solid black;
+	border: 1px solid black;
 } 
 
 .header .phone-digits {
@@ -111,7 +111,7 @@ a {
 }
 
 .menu-wrapper a {
-	background-color: #CD4375;
+	background-color: #E65C9E;
 	color: #fff;
 	padding: 5px 17px;
 	border-radius: 5px;
@@ -159,6 +159,10 @@ a {
 	padding-right: 70px;*/
 }
 
+.carousel-inner {
+	border-radius: 10px;
+}
+
 #carousel-main-screen .carousel-inner > .item > img {
 	margin-left: auto;
 	margin-right: auto;
@@ -187,6 +191,47 @@ a {
 	top: 48.5%;
 }
 
+.burger-menu {
+	background-image: url("imgs/burger-menu.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 42px;
+	height: 24px;
+	margin-right: 5px;
+	margin-top: 9px;
+}
+
+.navbar-default {
+	background-color: #fff;
+	border: none;
+}
+
+.phones-wrapper {
+	margin-left: auto;	
+}
+
+.logo-wrapper {
+	background-image: url("imgs/logo.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 128px;
+	height: 37px;
+	margin-right: auto;
+}
+
+.item-menu {
+	background-color: #E65C9E;
+	color: #fff;
+	font-size: 24px;
+	font-weight: 700;
+	/*font-family: 'Open Sans Condensed', sans-serif;*/
+	font-family: 'OpenSansCondensedLight', sans-serif;
+	letter-spacing: 2px;
+	margin-bottom: 20px;
+	border-radius: 3px;
+	padding: 10px 0;
+}
+
 
 /*Модальное окно Bootstrap*/
 .modal-title {
@@ -198,6 +243,8 @@ a {
 }
 .modal-dialog {
 	width: 320px;
+	margin-left: auto;
+	margin-right: auto;
 }
 .modal-content {
 	background-color: #F1F1F1;
@@ -243,6 +290,24 @@ a {
 	padding-top: 15px;
 }
 
+#modal-menu .modal-body {
+	margin-top: 0px;
+}
+
+#modal-menu a {
+	display: block;
+}
+
+#modal-menu a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+#modal-menu a:active {
+	background-color: #8B3330;
+	text-decoration: none;
+}
+
 /*Модальное окно Bootstrap*/
 
 
@@ -253,22 +318,68 @@ a {
 /*LightGallery*/
 
 @media screen and (min-device-width: 320px) {
-	
+	body {
+		padding-top: 51px;
+	}	
+	.header {
+		display: flex;
+	}
+	.header .phone-digits {
+		font-size: 20px;
+	}
+	.header .glyphicon-earphone {
+		font-size: 16px;
+		margin-right: -5px;
+	}
+	.container-fluid {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.header {
+		margin-top: 6px;
+	}
+	.phones-wrapper > div {
+		margin-top: 5px;
+	}
+	.modal-dialog {
+		width: 290px;
+	}
 }
 
 @media screen and (min-device-width: 768px) {
-	
+	.header .phone-digits {
+		font-size: 24px;
+	}
+	.modal-dialog {
+		width: 320px;
+	}
+
 }
 
 @media screen and (min-device-width: 992px) {
+	body {
+		padding-top: 0px;
+	}	
+	.header {
+		display: block;
+		margin-top: 0px;
+	}
+	.header .phone-digits {
+		font-size: 36px;
+	}
+	.header .glyphicon-earphone {
+		font-size: 25px;
+		margin-right: 0px;
+	}
+	.container-fluid {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
 
 }
 
 @media screen and (min-device-width: 1366px) {
-	.header {
-/*		padding-left: 70px;
-		padding-right: 70px;*/
-	}
+
 	
 }
 
