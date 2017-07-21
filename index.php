@@ -59,28 +59,26 @@
 <body>
 
 <?php require_once 'header.php'; ?> 
-<!-- <div id="carousel-main-screen" class="carousel slide" data-ride="carousel">    
-    <h1 class="text-center">Квартиры от застройщика в новом доме в 10 минутах от центра города!</h1> -->
+
+<div id="carousel-main-screen" class="carousel slide" data-ride="carousel">    
+    <!-- <h1 class="text-center">Квартиры от застройщика в новом доме в 10 минутах от центра города!</h1> -->
+<!--     <h2 class="text-center">Квартиры от застройщика в новом доме в 10 минутах от центра города!</h2> -->
   <!-- Indicators -->
-<!--     <ol class="carousel-indicators">
+    <ol class="carousel-indicators">
         <li data-target="#carousel-main-screen" data-slide-to="0" class="active"></li>
         <li data-target="#carousel-main-screen" data-slide-to="1"></li>
-        <li data-target="#carousel-main-screen" data-slide-to="2"></li>
-    </ol> -->
+    </ol>
   <!-- Wrapper for slides -->
-<!--     <div class="carousel-inner" role="listbox">
+    <div class="carousel-inner" role="listbox">
         <div class="item active">
-            <img src="imgs/slider-01.jpg" alt="">
+            <img src="imgs/slide-01.png" alt="">
         </div>
         <div class="item">
-            <img src="imgs/slider-02.jpg" alt="">
-        </div>
-        <div class="item">
-            <img src="imgs/slider-03.jpg" alt="">
-        </div>               
-    </div> -->
+            <img src="imgs/slide-02.png" alt="">
+        </div>              
+    </div>
   <!-- Controls -->
-<!--     <a class="left carousel-control" href="#carousel-main-screen" role="button" data-slide="prev">
+    <a class="left carousel-control" href="#carousel-main-screen" role="button" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
     </a>
@@ -88,7 +86,11 @@
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
     </a>
-</div> -->
+</div>
+
+
+
+
 
 <!-- <div class="container-fluid about-house">
     <div class="row">
