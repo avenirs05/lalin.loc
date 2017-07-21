@@ -320,6 +320,7 @@ a {
 @media screen and (min-device-width: 320px) {
 	body {
 		padding-top: 51px;
+		width: 100%;
 	}	
 	.header {
 		display: flex;
@@ -359,6 +360,7 @@ a {
 @media screen and (min-device-width: 992px) {
 	body {
 		padding-top: 0px;
+		width: 990px;
 	}	
 	.header {
 		display: block;
