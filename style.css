@@ -70,7 +70,7 @@ a {
 .header button {	
 	font-size: 16px;
 	font-family: 'Open Sans', sans-serif;
-	/*margin-right: 20px;*/
+	margin-right: 10px;
 	padding-left: 15px;
 	padding-right: 15px;
 	background-color: #fff;
@@ -138,6 +138,22 @@ a {
 	width: 0;
 }
 
+.carousel-caption {	
+	text-align: left;
+	top: -5%;
+	color: black;
+	text-shadow: none;
+	left: 45%;
+	right: 5%;
+}
+
+.carousel-caption h2 {	
+	top: 0;
+	font-size: 53px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-style: italic;
+}
+
 #carousel-main-screen {
 /*	padding-left: 70px;
 	padding-right: 70px;*/
@@ -164,6 +180,11 @@ a {
 
 .carousel-control .glyphicon-chevron-right {
 	margin-right: 20px;
+}
+
+#carousel-main-screen .glyphicon-chevron-left,
+#carousel-main-screen .glyphicon-chevron-right {
+	top: 48.5%;
 }
 
 

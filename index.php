@@ -59,6 +59,7 @@
 <body>
 
 <?php require_once 'header.php'; ?> 
+<?php require_once 'modals.php'; ?> 
 
 <div id="carousel-main-screen" class="carousel slide" data-ride="carousel">    
     <!-- <h1 class="text-center">Квартиры от застройщика в новом доме в 10 минутах от центра города!</h1> -->
@@ -72,9 +73,25 @@
     <div class="carousel-inner" role="listbox">
         <div class="item active">
             <img src="imgs/slide-01.png" alt="">
+            <div class="carousel-caption">
+              <h2>Забота о главном</h2>
+              <span>Клиника №1 ЛаЛин специализируется на эстетической (терапевтической) медицине. Приоритетным направлением клиники является лазерная косметология.</span>
+            </div>
         </div>
         <div class="item">
             <img src="imgs/slide-02.png" alt="">
+            <div class="carousel-caption">
+              <h2>Забота о красоте</h2>
+              <span class="bold">Полный комплекс услуг по косметологии</span><br>
+              <span>
+                    — инъекционная косметология<br>
+                    — коррекция фигуры<br>
+                    — лазерная косметология<br>
+                    — удаление новообразований кожи<br>
+                    — эпиляция<br>
+                    — эстетическая косметология
+              </span>
+            </div>
         </div>              
     </div>
   <!-- Controls -->

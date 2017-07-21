@@ -4,7 +4,7 @@
             <a href="index.php"><img src="imgs/logo.png" alt=""></a>
             <div class="right-side">
                 <div class="phone-digits-wrap">
-                    <button id="btn-free-consult">Обратный звонок</button>
+                    <button class="btn-callback">Обратный звонок</button>
                     <div class="cons-phone">
                         <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>&nbsp;
                         <span class="phone-digits">(863) 301-06-06</span> 
