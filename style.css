@@ -269,6 +269,45 @@ a {
 	border-radius: 8px;
 }
 
+.attention-text {
+	color: #7B2566;
+}
+
+.we-moved h3 {
+	font-size: 16px;
+}
+
+.action-top {
+	margin-top: 12px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	color: #7B2566;
+	background-color: #fff;
+}
+
+.action-bottom {
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	color: #7B2566;
+	background-color: #fff;
+}
+
+.action-bottom h3 {
+	font-weight: bold;
+}
+
+.action-text {
+	font-size: 32px;
+}
+
+.action-main-wrap {
+/*	background-image: url("imgs/action-bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;*/
+}
+
+
+
 
 /*Модальное окно Bootstrap*/
 .modal-title {
@@ -388,6 +427,9 @@ a {
 }
 
 @media screen and (min-device-width: 360px) {
+	body {
+		background-image: none;
+	}
 	.header .phone-digits {
 		font-size: 22px;
 	}
@@ -415,6 +457,7 @@ a {
 	body {
 		padding-top: 0px;
 		width: 990px;
+		background-image: url("imgs/bg-main.png");
 	}	
 	.header {
 		display: block;

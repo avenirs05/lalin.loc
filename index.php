@@ -112,7 +112,7 @@
             </div>
             <div class="services-list-mob">
                 <div class="services-text-wrap">
-                    • инъекционная косметология<br>
+                    <span>• инъекционная косметология<br>
                     • коррекция фигуры<br>
                     • лазерная косметология<br>
                     • удаление новообразований кожи<br>
@@ -124,10 +124,39 @@
     </div>
 </div>
 
+<div class="container-fluid we-moved">
+    <div class="row">
+        <div class="col-md-12">
+            <h3 class="text-center"><span class="attention-text">Внимание!</span> Мы <a href="#">переехали</a> на новый адрес: г. Ростов-на-Дону, ул. 1-я Круговая, 91.</h3>
+        </div>
+    </div>
+</div>
 
+<div class="container-fluid action-top">
+    <div class="row">
+        <div class="col-md-12">
+            <h3 class="text-center"><span class="action-text">АКЦИЯ!</span> Спешите успеть!</h3>
+        </div>
+    </div>
+</div>
 
+<div class="container-fluid action-main-wrap">
+    <div class="row">
+        <div class="col-md-12">
+            <img src="imgs/action-bg.jpg" alt="" width="100%">
+        </div>
+    </div>
+</div>
 
+<div class="container-fluid action-bottom">
+    <div class="row">
+        <div class="col-md-12">
+            <h3 class="text-center">АКЦИЯ ОГРАНИЧЕНА</h3>
+        </div>
+    </div>
+</div>
 
+<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque dignissimos quisquam maxime aliquid porro ullam quas, fugiat vitae rerum inventore blanditiis atque est obcaecati a veniam assumenda dolor excepturi. Eligendi.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam voluptate officiis eveniet aliquid adipisci commodi minima debitis molestiae corrupti harum ipsum similique deserunt dignissimos possimus nulla, cupiditate nobis, dolorum veniam!</div>
 
 
 
