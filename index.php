@@ -103,6 +103,28 @@
     </a>
 </div>
 
+<h1 class="main-header visible-xs-block visible-sm-block">Полный комплекс услуг по косметологии</h1>
+<div class="container-fluid visible-xs-block visible-sm-block">
+    <div class="main-screen-mob row">
+        <div class="col-md-12">
+            <div class="main-screen-wrap text-center">
+                <img src="imgs/main-screen-mob.jpg" height="120" alt="">
+            </div>
+            <div class="services-list-mob">
+                <div class="services-text-wrap">
+                    • инъекционная косметология<br>
+                    • коррекция фигуры<br>
+                    • лазерная косметология<br>
+                    • удаление новообразований кожи<br>
+                    • эпиляция<br>
+                    • эстетическая косметология
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 
 
 
