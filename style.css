@@ -301,9 +301,14 @@ a {
 }
 
 .action-main-wrap {
-/*	background-image: url("imgs/action-bg.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;*/
+	position: relative;
+}
+
+.action-items-wrap {
+	position: absolute;
+	top: 20px;
+	left: 40px;
+	width: 60%;
 }
 
 

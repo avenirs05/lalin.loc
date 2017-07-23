@@ -143,6 +143,7 @@
 <div class="container-fluid action-main-wrap">
     <div class="row">
         <div class="col-md-12">
+            <div class="action-items-wrap">test Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, nobis distinctio inventore earum consequatur fuga tempore, maiores saepe eos architecto debitis at provident enim consequuntur odio neque deleniti doloribus, reiciendis.</div>
             <img src="imgs/action-bg.jpg" alt="" width="100%">
         </div>
     </div>
