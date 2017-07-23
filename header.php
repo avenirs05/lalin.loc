@@ -40,6 +40,9 @@
     </script>
 
     <style>
+        body {
+            padding-right: 0 !important;
+        }
         @font-face {
             font-family: "OpenSansCondensedLight";
             src: url("fonts/OpenSans-CondLight.ttf") format("truetype");

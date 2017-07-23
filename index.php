@@ -43,111 +43,87 @@
 </div>
 
 <h1 class="main-header visible-xs-block visible-sm-block">Полный комплекс услуг по косметологии</h1>
-<div class="container-fluid visible-xs-block visible-sm-block">
-    <div class="main-screen-mob row">
-        <div class="col-md-12">
-            <div class="main-screen-wrap text-center">
-                <img src="imgs/main-screen-mob.jpg" height="120" alt="">
-            </div>
-            <div class="services-list-mob">
-                <div class="services-text-wrap">                    
-                    • инъекционная косметология<br>
-                    • коррекция фигуры<br>
-                    • лазерная косметология<br>
-                    • удаление новообразований кожи<br>
-                    • эпиляция<br>
-                    • эстетическая косметология
-                </div>
-            </div>
+<div class="main-screen-mob visible-xs-block visible-sm-block">
+    <div class="main-screen-wrap text-center">
+        <img src="imgs/main-screen-mob.jpg" height="120" alt="">
+    </div>
+    <div class="services-list-mob">
+        <div class="services-text-wrap">                    
+            • инъекционная косметология<br>
+            • коррекция фигуры<br>
+            • лазерная косметология<br>
+            • удаление новообразований кожи<br>
+            • эпиляция<br>
+            • эстетическая косметология
         </div>
     </div>
 </div>
 
-<div class="container-fluid btn-callback-wrap visible-xs-block visible-sm-block">
-    <div class="row">
-        <div class="col-md-12 text-center">
-            <button class="btn-callback" id="btn-get-consult-mob">Получить консультацию</button>
-        </div>
-    </div>
+<div class="container-fluid btn-callback-wrap text-center visible-xs-block visible-sm-block ">
+    <button class="btn-callback" id="btn-get-consult-mob">Получить консультацию</button>
 </div>
 
 <div class="container-fluid we-moved">
-    <div class="row">
-        <div class="col-md-12">
-            <h3 class="text-center"><span class="attention-text">Внимание!</span> Мы <a href="#" target="_blank">переехали</a> на новый адрес: г. Ростов-на-Дону, ул. 1-я Круговая, 91.</h3>
-        </div>
-    </div>
+    <h3 class="text-center"><span class="attention-text">Внимание!</span> Мы <a href="#" target="_blank">переехали</a> на новый адрес: г. Ростов-на-Дону, ул. 1-я Круговая, 91.</h3>
 </div>
 
 <div class="container-fluid action-top">
-    <div class="row">
-        <div class="col-md-12">
-            <h3 class="text-center hidden-xs hidden-sm"><span class="action-text">АКЦИЯ!</span> Спешите успеть!</h3>            
-        </div>
-    </div>
+    <h3 class="text-center hidden-xs hidden-sm"><span class="action-text">АКЦИЯ!</span> Спешите успеть!</h3>     
 </div>
 
 <div class="container-fluid action-main-wrap">
-    <div class="row">
-        <div class="col-md-12">
-            <div class="action-items-wrap">
-                <h4 class="text-center hidden-md hidden-lg"><span class="action-text">АКЦИЯ!</span><br> Спешите успеть!</h4>
-                <div class="arrow-wrap text-center">
-                    <img class="action-mob-img hidden-md hidden-lg" src="imgs/arrow.png" alt="">
-                </div>
-
-                <span class="item-action-header hidden-xs hidden-sm">Биоревитализация лица, шеи, декольте</span><br>
-                <span class="hidden-xs hidden-sm">• 3 процедуры — 12 000 руб.</span><br>
-                <span class="hidden-xs hidden-sm">• Разовая процедура — 3500 руб.</span><br><br>
-                
-                <span class="item-action-header hidden-xs hidden-sm">Худеем с легкостью. Забудем об отеках, целлюлите, тяжести в ногах</span><br>
-                <span class="item-action-header hidden-xs hidden-sm">Прессотерапия</span><br>
-                <span class="hidden-xs hidden-sm">• Разовая процедура — 300 руб.</span><br>
-                <span class="hidden-xs hidden-sm">• Абонемент 10 процедур — 270 руб./процедура</span><br>
-                <span class="hidden-xs hidden-sm">• Абонемент 15 процедур — 250 руб./процедура</span><br><br>
-                
-                <span class="item-action-header hidden-xs hidden-sm">Контурная пластика лица</span><br>
-                <span class="hidden-xs hidden-sm">• Увеличение объема губ — 7 500 руб.</span><br>
-                <span class="hidden-xs hidden-sm">• Коррекция носогубных складок — 7 500 руб.</span><br>
-                <span class="hidden-xs hidden-sm">• Увеличение объема скул — 7 500 руб.</span><br>
-                <span class="hidden-xs hidden-sm">• Коррекция глубоких мимических морщин — 7 500 руб.</span><br><br>
-                
-                <span class="item-action-header hidden-xs hidden-sm">Неодимовое омоложение лица, шеи, декольте</span><br>
-                <span class="hidden-xs hidden-sm">• Разовая процедура — 5 500 руб.</span><br>
-                <span class="hidden-xs hidden-sm">• Абонемент 6 процедур (1 зона) — 4 900 руб./процедура</span>               
-            </div>
-            <img class="action-bg-img" src="imgs/action-bg.jpg" alt="" width="100%">
-            <div class="actions-text-mob-wrap hidden-md hidden-lg">
-                <span class="item-action-header hidden-md hidden-lg">Биоревитализация лица, шеи, декольте</span><br>
-                <span class="hidden-md hidden-lg">• 3 процедуры — 12 000 руб.</span><br>
-                <span class="hidden-md hidden-lg">• Разовая процедура — 3500 руб.</span><br><br>
-                
-                <span class="item-action-header hidden-md hidden-lg">Худеем с легкостью. Забудем об отеках, целлюлите, тяжести в ногах. Прессотерапия:</span><br>                
-                <span class="hidden-md hidden-lg">• Разовая процедура — 300 руб.</span><br>
-                <span class="hidden-md hidden-lg">• Абонемент 10 процедур — 270 руб./процедура</span><br>
-                <span class="hidden-md hidden-lg">• Абонемент 15 процедур — 250 руб./процедура</span><br><br>
-                
-                <span class="item-action-header hidden-md hidden-lg">Контурная пластика лица</span><br>
-                <span class="hidden-md hidden-lg">• Увеличение объема губ — 7 500 руб.</span><br>
-                <span class="hidden-md hidden-lg">• Коррекция носогубных складок — 7 500 руб.</span><br>
-                <span class="hidden-md hidden-lg">• Увеличение объема скул — 7 500 руб.</span><br>
-                <span class="hidden-md hidden-lg">• Коррекция глубоких мимических морщин — 7 500 руб.</span><br><br>
-                
-                <span class="item-action-header hidden-md hidden-lg">Неодимовое омоложение лица, шеи, декольте</span><br>
-                <span class="hidden-md hidden-lg">• Разовая процедура — 5 500 руб.</span><br>
-                <span class="hidden-md hidden-lg">• Абонемент 6 процедур (1 зона) — 4 900 руб./процедура</span>
-                <h3 class="text-center hidden-md hidden-lg">АКЦИЯ ОГРАНИЧЕНА</h3>
-            </div>
+    <div class="action-items-wrap">
+        <h4 class="text-center hidden-md hidden-lg"><span class="action-text">АКЦИЯ!</span><br> Спешите успеть!</h4>
+        <div class="arrow-wrap text-center">
+            <img class="action-mob-img hidden-md hidden-lg" src="imgs/arrow.png" alt="">
         </div>
+
+        <span class="item-action-header hidden-xs hidden-sm">Биоревитализация лица, шеи, декольте</span><br>
+        <span class="hidden-xs hidden-sm">• 3 процедуры — 12 000 руб.</span><br>
+        <span class="hidden-xs hidden-sm">• Разовая процедура — 3500 руб.</span><br><br>
+        
+        <span class="item-action-header hidden-xs hidden-sm">Худеем с легкостью. Забудем об отеках, целлюлите, тяжести в ногах</span><br>
+        <span class="item-action-header hidden-xs hidden-sm">Прессотерапия</span><br>
+        <span class="hidden-xs hidden-sm">• Разовая процедура — 300 руб.</span><br>
+        <span class="hidden-xs hidden-sm">• Абонемент 10 процедур — 270 руб./процедура</span><br>
+        <span class="hidden-xs hidden-sm">• Абонемент 15 процедур — 250 руб./процедура</span><br><br>
+        
+        <span class="item-action-header hidden-xs hidden-sm">Контурная пластика лица</span><br>
+        <span class="hidden-xs hidden-sm">• Увеличение объема губ — 7 500 руб.</span><br>
+        <span class="hidden-xs hidden-sm">• Коррекция носогубных складок — 7 500 руб.</span><br>
+        <span class="hidden-xs hidden-sm">• Увеличение объема скул — 7 500 руб.</span><br>
+        <span class="hidden-xs hidden-sm">• Коррекция глубоких мимических морщин — 7 500 руб.</span><br><br>
+        
+        <span class="item-action-header hidden-xs hidden-sm">Неодимовое омоложение лица, шеи, декольте</span><br>
+        <span class="hidden-xs hidden-sm">• Разовая процедура — 5 500 руб.</span><br>
+        <span class="hidden-xs hidden-sm">• Абонемент 6 процедур (1 зона) — 4 900 руб./процедура</span>          
+    </div>
+    <img class="action-bg-img" src="imgs/action-bg.jpg" alt="" width="100%">
+    <div class="actions-text-mob-wrap hidden-md hidden-lg">
+        <span class="item-action-header hidden-md hidden-lg">Биоревитализация лица, шеи, декольте</span><br>
+        <span class="hidden-md hidden-lg">• 3 процедуры — 12 000 руб.</span><br>
+        <span class="hidden-md hidden-lg">• Разовая процедура — 3500 руб.</span><br><br>
+        
+        <span class="item-action-header hidden-md hidden-lg">Худеем с легкостью. Забудем об отеках, целлюлите, тяжести в ногах. Прессотерапия:</span><br>                
+        <span class="hidden-md hidden-lg">• Разовая процедура — 300 руб.</span><br>
+        <span class="hidden-md hidden-lg">• Абонемент 10 процедур — 270 руб./процедура</span><br>
+        <span class="hidden-md hidden-lg">• Абонемент 15 процедур — 250 руб./процедура</span><br><br>
+        
+        <span class="item-action-header hidden-md hidden-lg">Контурная пластика лица</span><br>
+        <span class="hidden-md hidden-lg">• Увеличение объема губ — 7 500 руб.</span><br>
+        <span class="hidden-md hidden-lg">• Коррекция носогубных складок — 7 500 руб.</span><br>
+        <span class="hidden-md hidden-lg">• Увеличение объема скул — 7 500 руб.</span><br>
+        <span class="hidden-md hidden-lg">• Коррекция глубоких мимических морщин — 7 500 руб.</span><br><br>
+        
+        <span class="item-action-header hidden-md hidden-lg">Неодимовое омоложение лица, шеи, декольте</span><br>
+        <span class="hidden-md hidden-lg">• Разовая процедура — 5 500 руб.</span><br>
+        <span class="hidden-md hidden-lg">• Абонемент 6 процедур (1 зона) — 4 900 руб./процедура</span>
+        <h3 class="text-center hidden-md hidden-lg">АКЦИЯ ОГРАНИЧЕНА</h3>
     </div>
 </div>
 
 <div class="container-fluid action-bottom hidden-xs">
-    <div class="row">
-        <div class="col-md-12">
-            <h3 class="text-center">АКЦИЯ ОГРАНИЧЕНА</h3>
-        </div>
-    </div>
+    <h3 class="text-center">АКЦИЯ ОГРАНИЧЕНА</h3>
 </div>
 
 <div class="container-fluid visible-md-block visible-lg-block">
@@ -169,34 +145,26 @@
             </table>  
         </div>
     </div>
-</div>    
-
-<div class="container-fluid visible-xs-block visible-md-block">
-    <div class="row">
-        <div class="col-md-12">
-            <div class="text-center limf-wrap-mob">
-                <span class="bold">ЛИМФОСТАЗ ПОСЛЕ МАСТЭКТОМИИ</span><br>
-                                   — эффективное лечение и реабилитация.<br> 
-                                   Рекомендуется курс<a href="#" target="_blank">прессотерапии</a> 10-15 процедур.
-            </div>
-            <div class="text-center str-wrap-mob"><span class="bold">«СТРОЙНОСТЬ В ПОДАРОК»!</span><br> 
-                         УЗ-липосакция + RF-лифтинг<br> 
-                         с 15 июня по 1 июля 2017 г. - <span class="bold">скидка 50%</span>
-            </div>
-        </div>
-    </div>
 </div>   
 
-<div class="container-fluid depart-cosmetology">
-    <div class="row">
-        <div class="col-md-12">
-            <h3>Отделение косметологии и красоты</h3>         
-            <p>Отделение Медицинской косметологии специализируется на эстетической (терапевтической) медицине.</p>
-            <p>Нашу клинику посещают мужчины и женщины от 18 лет и до…, впрочем, без ограничения по верхнему пределу.</p>
-            <p>Если вы хотите изменить себя, специалисты клиники косметологии ЛаЛин готовы решить все ваши вопросы с максимальным эффектом. Для этого мы имеем все возможности.</p>
-            <a href="page-services.php" target="_blank">Все услуги</a><br><br>            
-        </div>
+<div class="container-fluid visible-xs-block visible-sm-block">
+    <div class="text-center limf-wrap-mob">
+        <span class="bold">ЛИМФОСТАЗ ПОСЛЕ МАСТЭКТОМИИ</span><br>
+                           — эффективное лечение и реабилитация.<br> 
+                           Рекомендуется курс <a href="#" target="_blank">прессотерапии</a> 10-15 процедур.
     </div>
+    <div class="text-center str-wrap-mob"><span class="bold">«СТРОЙНОСТЬ В ПОДАРОК»!</span><br> 
+                 УЗ-липосакция + RF-лифтинг<br> 
+                 с 15 июня по 1 июля 2017 г. - <span class="bold">скидка 50%</span>
+    </div>
+</div>  
+
+<div class="container-fluid depart-cosmetology">
+    <h3>Отделение косметологии и красоты</h3>         
+    <p>Отделение Медицинской косметологии специализируется на эстетической (терапевтической) медицине.</p>
+    <p>Нашу клинику посещают мужчины и женщины от 18 лет и до…, впрочем, без ограничения по верхнему пределу.</p>
+    <p>Если вы хотите изменить себя, специалисты клиники косметологии ЛаЛин готовы решить все ваши вопросы с максимальным эффектом. Для этого мы имеем все возможности.</p>
+    <a href="page-services.php" target="_blank">Все услуги</a><br><br>           
 </div>
 
- <?php require_once 'footer.php'; ?> 
+<?php require_once 'footer.php'; ?> 
