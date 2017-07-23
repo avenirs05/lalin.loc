@@ -50,10 +50,7 @@ a {
 }
 
 .header {
-	/*color: #ffffff;*/
-/*	padding-left: 70px;
-	padding-right: 70px;*/
-	/*opacity: 0.8;*/	
+	margin-bottom: 30px;	
 }
 
 .header .col-md-12 {
@@ -67,6 +64,7 @@ a {
 
 .header .right-side {
 	float: right;
+	margin-top: 10px;
 }
 
 .header button {	
@@ -415,7 +413,6 @@ table.actions-limf-str {
 
 .depart-cosmetology {
 	margin-top: 20px;
-	background-color: #F3F3F3;
 }
 
 .depart-cosmetology h3 {
@@ -433,6 +430,10 @@ table.actions-limf-str {
 	z-index: 10;
 	margin-left: 70px;
 	top: 25%;
+}
+
+.callback-contacts-wrap-mob {
+
 }
 
 .footer button {
@@ -553,7 +554,8 @@ table.actions-limf-str {
 	body {
 		padding-top: 51px;
 		width: 100%;
-		background-image: none;
+		background-image: none;	
+		background-color: #fff;	
 	}	
 	.header {
 		display: flex;
@@ -587,6 +589,9 @@ table.actions-limf-str {
 	.action-bg-img {
 		border-top-left-radius: 10px;
 		border-top-right-radius: 10px;
+	}
+	.footer .contacts-wrapper {
+		border: none;
 	}
 }
 
@@ -664,6 +669,10 @@ table.actions-limf-str {
 		border-top-left-radius: 0;
 		border-top-right-radius: 0;
 	}
+	.footer .contacts-wrapper {
+		border: 1px solid #8B3B3F;
+	}
+	
 
 }
 

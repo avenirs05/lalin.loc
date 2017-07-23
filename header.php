@@ -50,6 +50,7 @@
 </head>
 
 <body>
+<?php require_once 'modals.php'; ?>
 
 <div class="header visible-md-block visible-lg-block">
     <div class="row">

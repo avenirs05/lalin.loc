@@ -1,5 +1,4 @@
-﻿<?php require_once 'header.php'; ?> 
-<?php require_once 'modals.php'; ?> 
+﻿<?php require_once 'header.php'; ?>  
 
 <div id="carousel-main-screen" class="carousel slide visible-md-block visible-lg-block" data-ride="carousel">    
   <!-- Indicators -->
@@ -75,7 +74,7 @@
 <div class="container-fluid we-moved">
     <div class="row">
         <div class="col-md-12">
-            <h3 class="text-center"><span class="attention-text">Внимание!</span> Мы <a href="#">переехали</a> на новый адрес: г. Ростов-на-Дону, ул. 1-я Круговая, 91.</h3>
+            <h3 class="text-center"><span class="attention-text">Внимание!</span> Мы <a href="#" target="_blank">переехали</a> на новый адрес: г. Ростов-на-Дону, ул. 1-я Круговая, 91.</h3>
         </div>
     </div>
 </div>
@@ -158,7 +157,7 @@
                 <tr class="text-center">
                     <td id="limf-cell"><span class="bold">ЛИМФОСТАЗ ПОСЛЕ МАСТЭКТОМИИ</span><br>
                     — эффективное лечение и реабилитация.<br> 
-                    Рекомендуется курс <a href="#">прессотерапии</a> 10-15 процедур.
+                    Рекомендуется курс <a href="#" target="_blank">прессотерапии</a> 10-15 процедур.
                     </td>
                     <td id="empty-cell">
                     </td>
@@ -178,7 +177,7 @@
             <div class="text-center limf-wrap-mob">
                 <span class="bold">ЛИМФОСТАЗ ПОСЛЕ МАСТЭКТОМИИ</span><br>
                                    — эффективное лечение и реабилитация.<br> 
-                                   Рекомендуется курс<a href="#">прессотерапии</a> 10-15 процедур.
+                                   Рекомендуется курс<a href="#" target="_blank">прессотерапии</a> 10-15 процедур.
             </div>
             <div class="text-center str-wrap-mob"><span class="bold">«СТРОЙНОСТЬ В ПОДАРОК»!</span><br> 
                          УЗ-липосакция + RF-лифтинг<br> 
@@ -195,7 +194,7 @@
             <p>Отделение Медицинской косметологии специализируется на эстетической (терапевтической) медицине.</p>
             <p>Нашу клинику посещают мужчины и женщины от 18 лет и до…, впрочем, без ограничения по верхнему пределу.</p>
             <p>Если вы хотите изменить себя, специалисты клиники косметологии ЛаЛин готовы решить все ваши вопросы с максимальным эффектом. Для этого мы имеем все возможности.</p>
-            <a href="page-services.php">Все услуги</a><br><br>            
+            <a href="page-services.php" target="_blank">Все услуги</a><br><br>            
         </div>
     </div>
 </div>
