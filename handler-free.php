@@ -18,17 +18,9 @@
 
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/lightgallery.min.js"></script>
-    <script src="js/lg-thumbnail.min.js"></script>
 
     <script>
-        $(function () {
-            // $('#carousel-main-screen').carousel();
-            // $('#carousel-gallery-mob').carousel();
-            // $("#lightgallery").lightGallery({
-            //     showThumbByDefault: true
-            // });
-        });
+
     </script>
 
     <style>
@@ -65,7 +57,7 @@ $subject = "Заявка с сайта veter61.ru";
 
 if (isset($_GET['submit-free-consult'])) {  
     $message = '<html><head><title></title></head><body>
-                        <strong>Тема: заявка с сайта veter61.ru</strong><br>' .
+                        <strong>Тема: заявка с сайта лалин.рф</strong><br>' .
                         'Имя: ' . $_GET['customer-name'] . '<br>' .
                         'Телефон: ' . $_GET['customer-phone'] . '<br></body></html>';    
 

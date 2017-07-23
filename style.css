@@ -6,7 +6,9 @@ html {
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
-	background-image: url("imgs/bg-main.png");
+	/* background-image: url("imgs/bg-main.png"); */
+	padding-right: 0 !important;
+	background-color: #F3F3F3;
 	width: 990px;
 	margin-left: auto;
 	margin-right: auto;
@@ -81,7 +83,7 @@ a {
 } 
 
 .header button:hover {	
-	background-color: #68615D;
+	background-color: #8B3330;
 	color: #fff;
 	border: 1px solid black;
 } 
@@ -107,7 +109,7 @@ a {
 .menu-wrapper {
 	margin-top: 20px;
 	margin-left: auto;
-	font-size: 22px;
+	font-size: 18px;
 }
 
 .menu-wrapper a {
@@ -340,6 +342,129 @@ a {
 	font-weight: bold;
 }
 
+#btn-get-consult-mob {
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: #fff;
+	border: 1px solid #7B254C;
+	color: #AE3266;
+	border-radius: 5px;
+} 
+
+#btn-get-consult-mob {
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	padding: 15px 20px;
+	background-color: #E65C9E;
+	border: 1px solid #7B254C;
+	color: #FFF;
+	border-radius: 5px;
+	margin-top: 25px;
+} 
+
+#btn-get-consult-mob:active {
+	background-color: green;
+} 
+
+.action-top h3 {
+	margin-top: 10px;
+}
+
+.actions-limf-str {
+
+}
+
+.actions-limf-str {
+	
+}
+
+table.actions-limf-str {
+	width: 100%;
+	margin-top: 20px;
+}
+
+#limf-cell,
+#str-cell {
+	width: 49%;
+	background-color: #092D77;
+	border-radius: 10px;
+	color: #fff;
+	padding: 10px;
+}
+
+#limf-cell a,
+.limf-wrap-mob a {
+	text-decoration: underline;
+	color: #fff;
+}
+
+#empty-cell {
+	width: 2%;	
+}
+
+.limf-wrap-mob,
+.str-wrap-mob {
+	background-color: #092D77;
+	color: #fff;
+	padding: 10px;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
+.depart-cosmetology {
+	margin-top: 20px;
+	background-color: #F3F3F3;
+}
+
+.depart-cosmetology h3 {
+	font-size: 24px;
+	color: #8B2566;
+} 
+
+.footer {
+	background-color: #fff;
+	position: relative;
+}
+
+.callback-contacts-wrap {
+	position: absolute;
+	z-index: 10;
+	margin-left: 70px;
+	top: 25%;
+}
+
+.footer button {
+	padding: 10px 15px;
+	font-size: 20px;
+	border-radius: 3px;
+	background-color: rgb(230, 92, 158);
+	color: rgb(255, 255, 255);
+	border: medium none;
+} 
+
+.footer button:hover {
+	background-color: #8B3330;
+} 
+
+.footer .contacts-wrapper {
+	background-color: #fff;
+	font-size: 18px;
+	font-family: 'OpenSansCondensedLight', sans-serif;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border: 1px solid #8B3B3F;
+	border-radius: 10px;
+	margin-top: 20px;
+} 
+
+
+
+
+
 /*Модальное окно Bootstrap*/
 .modal-title {
 	color: #000000;
@@ -374,7 +499,7 @@ a {
 	font-size: 18px;
 }
 .modal-body input[type="submit"] {
-	background-color: #E7382B;
+	background-color: #E65C9E;
 	color: #ffffff;
 	width: 100%;
 	height: 60px;
@@ -514,7 +639,8 @@ a {
 	body {
 		padding-top: 0px;
 		width: 990px;
-		background-image: url("imgs/bg-main.png");
+		background-color: #F3F3F3;
+/* 		background-image: url("imgs/bg-main.png"); */
 	}	
 	.header {
 		display: block;

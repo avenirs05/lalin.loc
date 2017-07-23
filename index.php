@@ -1,64 +1,4 @@
-﻿<!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1"> 
-    <meta name="format-detection" content="telephone=no">
-    
-    <title>Клиника №1 ЛаЛин</title>
-    
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
-    <link rel="shortcut icon" href="imgs/fav.png" type="image/png">
-    <link type="text/css" rel="stylesheet" href="css/lightgallery.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">    
-    <link href="style.css" rel="stylesheet">
-
-    <script src="js/jquery-3.1.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-<!--     <script src="js/lightgallery.min.js"></script>
-    <script src="js/lg-thumbnail.min.js"></script> -->
-
-    <script>    
-        $(function () {
-            $('#carousel-main-screen').carousel();
-            $('#carousel-gallery-mob').carousel();
-
-            $('.btn-callback').click(function() { $('#modal-free-consult').modal('show'); });
-            $('.burger-menu').click(function() { $('#modal-menu').modal('show'); });
-
-            $('[data-toggle="tooltip"]').tooltip();
-            
-            // Выделение цветом нужной страницы
-            var location = window.location.href;  
-            $('.menu-wrapper a').each(function () {  
-                var link = $(this).attr('href');
-                if (location == link) { 
-                    $(this).addClass('change-color');                
-                }
-            }); 
-            // Конец. Выделение цветом нужной страницы 
-
-        });
-    </script>
-    <style>
-        body {
-          padding-right: 0 !important;     
-        }
-        @font-face {
-            font-family: "OpenSansCondensedLight";
-            src: url("fonts/OpenSans-CondLight.ttf") format("truetype");
-            font-style: normal;
-            font-weight: normal;  
-        }
-    </style>
-
-</head>
-<body>
-
-<?php require_once 'header.php'; ?> 
+﻿<?php require_once 'header.php'; ?> 
 <?php require_once 'modals.php'; ?> 
 
 <div id="carousel-main-screen" class="carousel slide visible-md-block visible-lg-block" data-ride="carousel">    
@@ -124,6 +64,14 @@
     </div>
 </div>
 
+<div class="container-fluid btn-callback-wrap visible-xs-block visible-sm-block">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <button class="btn-callback" id="btn-get-consult-mob">Получить консультацию</button>
+        </div>
+    </div>
+</div>
+
 <div class="container-fluid we-moved">
     <div class="row">
         <div class="col-md-12">
@@ -170,7 +118,7 @@
                 <span class="hidden-xs hidden-sm">• Абонемент 6 процедур (1 зона) — 4 900 руб./процедура</span>               
             </div>
             <img class="action-bg-img" src="imgs/action-bg.jpg" alt="" width="100%">
-            <div class="actions-text-mob-wrap">
+            <div class="actions-text-mob-wrap hidden-md hidden-lg">
                 <span class="item-action-header hidden-md hidden-lg">Биоревитализация лица, шеи, декольте</span><br>
                 <span class="hidden-md hidden-lg">• 3 процедуры — 12 000 руб.</span><br>
                 <span class="hidden-md hidden-lg">• Разовая процедура — 3500 руб.</span><br><br>
@@ -203,8 +151,53 @@
     </div>
 </div>
 
-<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque dignissimos quisquam maxime aliquid porro ullam quas, fugiat vitae rerum inventore blanditiis atque est obcaecati a veniam assumenda dolor excepturi. Eligendi.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam voluptate officiis eveniet aliquid adipisci commodi minima debitis molestiae corrupti harum ipsum similique deserunt dignissimos possimus nulla, cupiditate nobis, dolorum veniam!</div>
+<div class="container-fluid visible-md-block visible-lg-block">
+    <div class="row">
+        <div class="col-md-12">
+            <table class="actions-limf-str">
+                <tr class="text-center">
+                    <td id="limf-cell"><span class="bold">ЛИМФОСТАЗ ПОСЛЕ МАСТЭКТОМИИ</span><br>
+                    — эффективное лечение и реабилитация.<br> 
+                    Рекомендуется курс <a href="#">прессотерапии</a> 10-15 процедур.
+                    </td>
+                    <td id="empty-cell">
+                    </td>
+                    <td id="str-cell"><span class="bold">«СТРОЙНОСТЬ В ПОДАРОК»!</span><br> 
+                         УЗ-липосакция + RF-лифтинг<br> 
+                         с 15 июня по 1 июля 2017 г. - <span class="bold">скидка 50%</span>
+                    </td>
+                </tr>
+            </table>  
+        </div>
+    </div>
+</div>    
 
+<div class="container-fluid visible-xs-block visible-md-block">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="text-center limf-wrap-mob">
+                <span class="bold">ЛИМФОСТАЗ ПОСЛЕ МАСТЭКТОМИИ</span><br>
+                                   — эффективное лечение и реабилитация.<br> 
+                                   Рекомендуется курс<a href="#">прессотерапии</a> 10-15 процедур.
+            </div>
+            <div class="text-center str-wrap-mob"><span class="bold">«СТРОЙНОСТЬ В ПОДАРОК»!</span><br> 
+                         УЗ-липосакция + RF-лифтинг<br> 
+                         с 15 июня по 1 июля 2017 г. - <span class="bold">скидка 50%</span>
+            </div>
+        </div>
+    </div>
+</div>   
 
+<div class="container-fluid depart-cosmetology">
+    <div class="row">
+        <div class="col-md-12">
+            <h3>Отделение косметологии и красоты</h3>         
+            <p>Отделение Медицинской косметологии специализируется на эстетической (терапевтической) медицине.</p>
+            <p>Нашу клинику посещают мужчины и женщины от 18 лет и до…, впрочем, без ограничения по верхнему пределу.</p>
+            <p>Если вы хотите изменить себя, специалисты клиники косметологии ЛаЛин готовы решить все ваши вопросы с максимальным эффектом. Для этого мы имеем все возможности.</p>
+            <a href="page-services.php">Все услуги</a><br><br>            
+        </div>
+    </div>
+</div>
 
- <?php // require_once 'footer.php'; ?> 
+ <?php require_once 'footer.php'; ?> 
