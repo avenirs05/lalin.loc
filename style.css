@@ -12,6 +12,10 @@ body {
 	margin-right: auto;
 }
 
+.navbar{
+    height: 30px !important;
+}
+
 ul, li, span {
 	margin: 0;
 	padding: 0;
@@ -221,9 +225,9 @@ a {
 	background-color: #E65C9E;
 	color: #fff;
 	font-size: 24px;
-	font-weight: 700;
-	font-family: 'OpenSansCondensedLight', sans-serif;
-	letter-spacing: 2px;
+/*	font-weight: 700;*/
+/*	font-family: 'OpenSansCondensedLight', sans-serif;
+	letter-spacing: 2px;*/
 	margin-bottom: 20px;
 	border-radius: 7px;
 	padding: 10px 0;
@@ -462,6 +466,28 @@ table.actions-limf-str {
 	padding-right: 10px; 
 }
 
+.our-pride-wrap {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
+.our-pride-wrap img:nth-child(2) {
+	margin-right: 5px;
+}
+
+.our-pride-wrap img:last-child {
+	margin-left: 5px;	
+}
+
+.our-pride-header {
+	margin-bottom: 20px;
+}
+
+h4 our-pride-wrap {
+	padding-left: 10px;
+	padding-right: 10px;
+}
 
 
 
@@ -591,6 +617,7 @@ table.actions-limf-str {
 	}
 	.footer .contacts-wrapper {
 		border: none;
+		margin-top: 0; 
 	}
 }
 
@@ -670,6 +697,7 @@ table.actions-limf-str {
 	}
 	.footer .contacts-wrapper {
 		border: 1px solid #8B3B3F;
+		margin-top: 20px;
 	}
 	
 

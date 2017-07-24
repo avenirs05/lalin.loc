@@ -8,11 +8,11 @@
     		    <p><span class="red">E-mail: </span>yanaros@ya.ru</p>
     		    <p><span class="red">Адрес: </span>г. Ростов-на-Дону, ул. 1-я Круговая, дом 91</p>
             <p>
-               <span class="red">Режим работы:</span><br><span>пн.—пт.: с 09-00 до 20-00<br>
-                                                  сб.: с 10-00 до 17-00<br>
-                                                  вс.: выходной
+               <span class="red">Режим работы:</span><br><span>пн.—сб.: с 09-00 до 20-00<br>
+                                                  вс.: с 09-00 до 17-00<br>
                </span>            
             </p>
+            <p><span class="red"><a href="licences.php">Банковские реквизиты, лицензия</a></p>
     		</div>
 	  </div>
     <div class="callback-contacts-wrap-mob visible-xs-block visible-sm-block">
@@ -24,11 +24,11 @@
             <p><span class="red">E-mail: </span>yanaros@ya.ru</p>
             <p><span class="red">Адрес: </span>г. Ростов-на-Дону, ул. 1-я Круговая, дом 91</p>
             <p>
-               <span class="red">Режим работы:</span><br><span>пн.—пт.: с 09-00 до 20-00<br>
-                                                  сб.: с 10-00 до 17-00<br>
-                                                  вс.: выходной
+               <span class="red">Режим работы:</span><br><span>пн.—сб.: с 09-00 до 20-00<br>
+                                                  вс.: с 09-00 до 17-00<br>                            
                </span>            
             </p>
+            <p><span class="red"><a href="licences.php">Банковские реквизиты, лицензия</a></p>
         </div>
     </div>
     <div class="visible-md-block visible-lg-block">
