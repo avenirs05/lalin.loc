@@ -472,6 +472,10 @@ table.actions-limf-str {
 	margin-bottom: 20px;
 }
 
+.our-pride-wrap h4 {
+	margin-bottom: 20px;
+}
+
 .our-pride-wrap img:nth-child(2) {
 	margin-right: 5px;
 }
@@ -484,12 +488,9 @@ table.actions-limf-str {
 	margin-bottom: 20px;
 }
 
-h4 our-pride-wrap {
-	padding-left: 10px;
-	padding-right: 10px;
+.licenses-wrap > div > img {
+	margin-bottom: 20px;
 }
-
-
 
 /*Модальное окно Bootstrap*/
 .modal-title {
@@ -619,6 +620,22 @@ h4 our-pride-wrap {
 		border: none;
 		margin-top: 0; 
 	}
+	.our-pride-wrap img:nth-child(2) {
+		margin-right: 5px;
+	}
+
+	.our-pride-wrap img:last-child {
+		margin-left: 5px;	
+	}
+	.our-pride-wrap h4 {
+		margin-bottom: 10px;
+	}
+	.licenses-text-wrap {
+		padding-left: 10px;
+		padding-right: 10px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
 }
 
 @media screen and (min-device-width: 360px) {
@@ -698,6 +715,19 @@ h4 our-pride-wrap {
 	.footer .contacts-wrapper {
 		border: 1px solid #8B3B3F;
 		margin-top: 20px;
+	}
+	.our-pride-wrap img:nth-child(2) {
+		margin-right: 12px;
+	}
+	.our-pride-wrap img:last-child {
+		margin-left: 12px;	
+	}
+	.our-pride-wrap h4 {
+		margin-bottom: 20px;
+	}
+	.licenses-text-wrap {
+		padding-left: 0px;
+		padding-right: 0px;
 	}
 	
 
