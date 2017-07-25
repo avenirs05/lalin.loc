@@ -492,6 +492,15 @@ table.actions-limf-str {
 	margin-bottom: 20px;
 }
 
+.price-page table td {
+	font-size: 16px;
+}
+
+.names-services-row {
+	color: #7B2566;
+}
+
+
 /*Модальное окно Bootstrap*/
 .modal-title {
 	color: #000000;
@@ -566,6 +575,15 @@ table.actions-limf-str {
 	background-color: #8B3330;
 	text-decoration: none;
 }
+
+.price-page h3 {
+	margin: 0;
+}
+
+.price-page table {
+	margin-top: 30px;
+}
+
 
 /*Модальное окно Bootstrap*/
 
