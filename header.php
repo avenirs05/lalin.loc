@@ -70,7 +70,7 @@
                 <div class="menu-wrapper text-right">
                     <a href="index.php">Главная</a>
                     <a href="page-services.php">Услуги</a>
-                    <a href="page-materials.php">Материалы</a>
+                    <a href="page-equipment.php">Оборудование</a>
                     <a href="page-contacts.php">Контакты</a>
                 </div> 
             </div> 

@@ -24,7 +24,7 @@
             <div class="modal-body">
                 <a href="index.php" class="item-menu text-center">Главная</a>
                 <a href="page-services.php" class="item-menu text-center">Услуги</a>
-                <a href="page-materials.php" class="item-menu text-center">Материалы</a>
+                <a href="page-equipment.php" class="item-menu text-center">Оборудование</a>
                 <a href="page-contacts.php" class="item-menu text-center">Контакты</a>
             </div>
         </div>

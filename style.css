@@ -16,7 +16,7 @@ body {
     height: 30px !important;
 }
 
-ul, li, span {
+span {
 	margin: 0;
 	padding: 0;
 }
@@ -597,6 +597,48 @@ table.actions-limf-str {
 	margin-top: 30px;
 }
 
+.category-service-wrap {
+	width: 310px;
+	height: 310px;
+	background-color: #fff;
+	color: #fff;
+	border: 1px solid #7B2566;
+	border-radius: 5px;
+}
+
+.head-category-service-wrap {
+	background-color: #7B2566;
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 12px;
+	font-size: 17px;
+}
+
+.categories .row:last-child {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.categories ul {
+	color: #000000;
+	margin-top: 15px;
+	margin-left: -10px;
+	padding-right: 10px;
+	font-size: 16px;
+}
+
+.categories a {
+	color: #000000;
+}
+
+.categories a:hover {
+	color: #3333CC;
+}
+
+.page-services-header {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
 
 /*Модальное окно Bootstrap*/
 
@@ -677,6 +719,22 @@ table.actions-limf-str {
 	.price-page table tr td:last-child {
 		font-size: 10px;
 	}
+	.page-services-header {
+		font-size: 24px;
+		margin-bottom: 20px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.category-service-wrap {
+		width: 290px;
+		height: auto;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 20px;
+	}
+	.head-category-service-wrap {
+		font-size: 16px;
+	}
 }
 
 @media screen and (min-device-width: 360px) {
@@ -689,9 +747,15 @@ table.actions-limf-str {
 	.services-text-wrap {
 		font-size: 18px;
 	}
-
 	.arrow-wrap img {
 		height: 50px;
+	}
+	.category-service-wrap {
+		width: 310px;
+		height: 310px;		
+	}
+	.head-category-service-wrap {
+		font-size: 17px;
 	}
 
 }
@@ -793,6 +857,13 @@ table.actions-limf-str {
 	.licenses-text-wrap {
 		padding-left: 0px;
 		padding-right: 0px;
+	}
+	.page-services-header {
+		font-size: 24px;
+		margin-bottom: 20px;
+	}
+	.category-service-wrap {
+		margin-bottom: 0;		
 	}
 	
 
