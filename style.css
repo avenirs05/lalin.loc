@@ -493,11 +493,24 @@ table.actions-limf-str {
 }
 
 .price-page table td {
-	font-size: 16px;
+	font-size: 14px;
+}
+
+.price-page table {
+	font-size: 12px;
 }
 
 .names-services-row {
 	color: #7B2566;
+}
+
+
+.price-page table tr td:first-child {
+	font-size: 10px;
+}
+
+.price-page table tr td:last-child {
+	width: 10%;
 }
 
 
@@ -654,6 +667,16 @@ table.actions-limf-str {
 		margin-top: 20px;
 		margin-bottom: 20px;
 	}
+	.price-page table td {
+		font-size: 14px;
+	}
+
+	.price-page table {
+		font-size: 12px;
+	}
+	.price-page table tr td:last-child {
+		font-size: 10px;
+	}
 }
 
 @media screen and (min-device-width: 360px) {
@@ -670,12 +693,17 @@ table.actions-limf-str {
 	.arrow-wrap img {
 		height: 50px;
 	}
+
 }
 
 @media screen and (min-device-width: 480px) {
 	.arrow-wrap img {
 		height: 80px;
 		margin-top: 10px;
+	}
+	.price-page table tr td:last-child {
+		font-size: 12px;
+		width: 12%;
 	}
 }
 
@@ -698,6 +726,19 @@ table.actions-limf-str {
 	}
 	.action-text {
 		font-size: 42px;
+	}
+	.price-page table td {
+		font-size: 16px;
+	}
+
+	.price-page table {
+		font-size: 16px;
+	}
+	.price-page table tr td:first-child {
+		font-size: 16px;
+	}
+	.price-page table tr td:last-child {
+		font-size: 16px;
 	}
 }
 
