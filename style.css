@@ -705,6 +705,9 @@ table.actions-limf-str {
 		font-size: 12px;
 		width: 12%;
 	}
+	.price-page table tr th {
+		font-size: 14px;
+	}
 }
 
 @media screen and (min-device-width: 768px) {
@@ -738,6 +741,9 @@ table.actions-limf-str {
 		font-size: 16px;
 	}
 	.price-page table tr td:last-child {
+		font-size: 16px;
+	}
+	.price-page table tr th {
 		font-size: 16px;
 	}
 }
