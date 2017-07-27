@@ -570,21 +570,103 @@ table.actions-limf-str {
 .sidebar {
 	font-size: 16px;
 	border-radius: 5px;
-	padding: 20px;
+	padding-left: 0;
+	padding-right: 0;
+	height: 470px;
+	font-size: 16px;
+	background-color: #fff;
 }
 
 .sidebar ul {
 	margin-left: -10px;
 }
 
-.sidebar {
-	height: 420px;
-	font-size: 16px;
-	background-color: #fff;
-}
-
 .sidebar a {
 	display: block;
+}
+
+.category-header-sidebar {
+	background-color: #7B2566;
+	margin: 0;
+	color: #fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	font-size: 22px;
+}
+
+.category-content-wrap {
+	padding: 20px;
+}
+
+#equip-category-service-wrap .head-category-service-wrap {
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	background-color: #3F55B8;
+}
+
+#equip-category-service-wrap .category-service-wrap {
+	border: none;
+}
+
+#dot-rejuve-img-wrap {
+	background-image: url("imgs/equipment/dot-rejuve.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 268px;
+	width: 100%;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+#dot-therapy-img-wrap {
+	background-image: url("imgs/equipment/dot-therapy.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 268px;
+	width: 100%;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+#laser-epil-img-wrap {
+	background-image: url("imgs/equipment/laser-epilation.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 268px;
+	width: 100%;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+#laser-remove-img-wrap {
+	background-image: url("imgs/equipment/laser-removal-of-vessels.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 268px;
+	width: 100%;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+#strii-img-wrap {
+	background-image: url("imgs/equipment/strii.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 268px;
+	width: 100%;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+#fract-rejuve-img-wrap {
+	background-image: url("imgs/equipment/fractional-rejuve.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 268px;
+	width: 100%;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
 }
 
 
