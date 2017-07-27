@@ -12,7 +12,7 @@ body {
 	margin-right: auto;
 }
 
-.navbar{
+.navbar {
     height: 30px !important;
 }
 
@@ -431,10 +431,6 @@ table.actions-limf-str {
 	top: 25%;
 }
 
-.callback-contacts-wrap-mob {
-
-}
-
 .footer button {
 	padding: 10px 15px;
 	font-size: 20px;
@@ -527,6 +523,7 @@ table.actions-limf-str {
 	color: #fff;
 	border: 1px solid #7B2566;
 	border-radius: 5px;
+	display: block;
 }
 
 .head-category-service-wrap {
@@ -535,6 +532,18 @@ table.actions-limf-str {
 	padding-top: 10px;
 	padding-bottom: 12px;
 	font-size: 17px;
+	color: #fff;
+}
+
+#equip-category-service-wrap .category-service-wrap:hover,
+#equip-category-service-wrap-mob .category-service-wrap:hover {
+	text-decoration: none;
+}
+
+#equip-category-service-wrap .head-category-service-wrap:hover,
+#equip-category-service-wrap-mob .head-category-service-wrap:hover {
+	color: #fff;
+	text-decoration: underline;
 }
 
 .categories .row:last-child {
@@ -577,6 +586,10 @@ table.actions-limf-str {
 	background-color: #fff;
 }
 
+.sidebar-equipment {
+	height: 230px;
+}
+
 .sidebar ul {
 	margin-left: -10px;
 }
@@ -599,13 +612,15 @@ table.actions-limf-str {
 	padding: 20px;
 }
 
-#equip-category-service-wrap .head-category-service-wrap {
+#equip-category-service-wrap .head-category-service-wrap,
+#equip-category-service-wrap-mob .head-category-service-wrap {
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
 	background-color: #3F55B8;
 }
 
-#equip-category-service-wrap .category-service-wrap {
+#equip-category-service-wrap .category-service-wrap,
+#equip-category-service-wrap-mob .category-service-wrap {
 	border: none;
 }
 
@@ -669,6 +684,9 @@ table.actions-limf-str {
 	border-bottom-right-radius: 5px;
 }
 
+.page-content {
+	margin-bottom: 20px;
+}
 
 /*Модальное окно Bootstrap*/
 .modal-title {
