@@ -7,8 +7,8 @@
         	<div class="category-service-wrap">
         		<h4 class="head-category-service-wrap text-center">Инъекционная косметология</h4>
         		<ul>        			
-					<a href="" target="_blank"><li>Биоревитализация</li></a>
-					<a href="" target="_blank"><li>Ботокс, Диспорт</li></a>
+					<a href="page-biorevitalization.php" target="_blank"><li>Биоревитализация</li></a>
+					<a href="page-botox-dysport.php" target="_blank"><li>Ботокс, Диспорт</li></a>
 					<a href="" target="_blank"><li>Изменение формы и объема губ</li></a>
 					<a href="" target="_blank"><li>Контурная пластика</li></a>
 					<a href="" target="_blank"><li>Мезотерапия</li></a>

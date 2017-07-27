@@ -504,13 +504,87 @@ table.actions-limf-str {
 	color: #7B2566;
 }
 
-
 .price-page table tr td:first-child {
 	font-size: 10px;
 }
 
 .price-page table tr td:last-child {
 	width: 10%;
+}
+
+.price-page h3 {
+	margin: 0;
+}
+
+.price-page table {
+	margin-top: 30px;
+}
+
+.category-service-wrap {
+	width: 310px;
+	height: 310px;
+	background-color: #fff;
+	color: #fff;
+	border: 1px solid #7B2566;
+	border-radius: 5px;
+}
+
+.head-category-service-wrap {
+	background-color: #7B2566;
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 12px;
+	font-size: 17px;
+}
+
+.categories .row:last-child {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.categories ul {
+	color: #000000;
+	margin-top: 15px;
+	margin-left: -10px;
+	padding-right: 10px;
+	font-size: 16px;
+}
+
+.categories a {
+	color: #000000;
+}
+
+.categories a:hover {
+	color: #3333CC;
+}
+
+.page-services-header {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.category-name {
+	font-weight: bold;
+}
+
+.sidebar {
+	font-size: 16px;
+	border-radius: 5px;
+	padding: 20px;
+}
+
+.sidebar ul {
+	margin-left: -10px;
+}
+
+.sidebar {
+	height: 420px;
+	font-size: 16px;
+	background-color: #fff;
+}
+
+.sidebar a {
+	display: block;
 }
 
 
@@ -587,57 +661,6 @@ table.actions-limf-str {
 #modal-menu a:active {
 	background-color: #8B3330;
 	text-decoration: none;
-}
-
-.price-page h3 {
-	margin: 0;
-}
-
-.price-page table {
-	margin-top: 30px;
-}
-
-.category-service-wrap {
-	width: 310px;
-	height: 310px;
-	background-color: #fff;
-	color: #fff;
-	border: 1px solid #7B2566;
-	border-radius: 5px;
-}
-
-.head-category-service-wrap {
-	background-color: #7B2566;
-	margin: 0;
-	padding-top: 10px;
-	padding-bottom: 12px;
-	font-size: 17px;
-}
-
-.categories .row:last-child {
-	margin-top: 30px;
-	margin-bottom: 30px;
-}
-
-.categories ul {
-	color: #000000;
-	margin-top: 15px;
-	margin-left: -10px;
-	padding-right: 10px;
-	font-size: 16px;
-}
-
-.categories a {
-	color: #000000;
-}
-
-.categories a:hover {
-	color: #3333CC;
-}
-
-.page-services-header {
-	font-size: 24px;
-	margin-bottom: 20px;
 }
 
 /*Модальное окно Bootstrap*/
