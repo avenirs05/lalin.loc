@@ -688,6 +688,14 @@ table.actions-limf-str {
 	margin-bottom: 20px;
 }
 
+.category-service-wrap > a:hover {
+	color: #fff;
+}
+
+#categories-mob .category-service-wrap {
+	height: auto;
+}
+
 /*Модальное окно Bootstrap*/
 .modal-title {
 	color: #000000;
