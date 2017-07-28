@@ -33,7 +33,8 @@
             // Выделение цветом нужной услуги в сайдбаре
             sidebarServicesChangeColor();
 
-
+            // Выделение цветом нужной технологии (оборудования) в сайдбаре
+            sidebarEquipmentChangeColor();
         });
     </script>
 

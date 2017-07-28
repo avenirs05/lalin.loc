@@ -117,14 +117,14 @@ a {
 	color: #fff;
 	padding: 5px 17px;
 	border-radius: 5px;
-	border: 1px solid #AE3266;
+	/*border: 1px solid #AE3266;*/
 }
 
 .menu-wrapper a:hover {
 	text-decoration: none;
 	background-color: #7B2566;
 	color: #fff;
-	border: 1px solid black;
+/*	border: 1px solid black;*/
 }
 
 .cons-phone {
@@ -574,7 +574,13 @@ table.actions-limf-str {
 
 .category-name {
 	font-weight: bold;
+/*	margin-bottom: 5px;*/
 }
+
+.category-wrap {
+	margin-bottom: 5px;
+}
+
 
 .sidebar {
 	font-size: 16px;
@@ -587,8 +593,12 @@ table.actions-limf-str {
 	border-bottom-right-radius: 5px;
 }
 
-.sidebar-equipment {
+/*.sidebar-equipment {
 	height: 230px;
+}*/
+
+#sidebar-equipment {
+	/*height: 230px;*/
 }
 
 .sidebar ul {
@@ -625,6 +635,10 @@ table.actions-limf-str {
 #equip-category-service-wrap .category-service-wrap,
 #equip-category-service-wrap-mob .category-service-wrap {
 	border: none;
+}
+
+#equip-category-service-wrap .category-wrap {
+	margin-bottom: 0;
 }
 
 #dot-rejuve-img-wrap {

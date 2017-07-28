@@ -142,3 +142,27 @@ function sidebarServicesChangeColor () {
 	//Эстетическая косметология
 	// Подкатегории
 } 
+
+function sidebarEquipmentChangeColor () {
+	var location = window.location.href;
+	var color = '#AE3266';
+
+	if ( location.match(/equipment-dot_rejuve/) ) { 
+		$('#dot-rejuve').css('color', color);
+	} 
+	if ( location.match(/equipment-dot_therapy/) ) { 
+		$('#dot-therapy').css('color', color);
+	} 
+	if ( location.match(/equipment-fractional_rejuve/) ) { 
+		$('#fractional-rejuve').css('color', color);
+	} 
+	if ( location.match(/equipment-laser_epilation/) ) { 
+		$('#laser-epilation').css('color', color);
+	} 
+	if ( location.match(/equipment-laser_removal_of_vessels/) ) { 
+		$('#laser-removal-of-vessels').css('color', color);
+	} 
+	if ( location.match(/equipment-strii/) ) { 
+		$('#strii').css('color', color);
+	}
+} 
