@@ -18,6 +18,7 @@
 
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/functions-my.js"></script>
 
     <script>    
         $(function () {
@@ -26,17 +27,12 @@
             $('.btn-callback').click(function() { $('#modal-free-consult').modal('show'); });
             $('.burger-menu').click(function() { $('#modal-menu').modal('show'); });
             
-            // Выделение цветом нужной страницы
-            var location = window.location.href;  
-            $('.menu-wrapper a').each(function () {  
-                var link = $(this).attr('href');
-                if (location == link) { 
-                    $(this).addClass('change-color');                
-                }
-            }); 
-            // Конец. Выделение цветом нужной страницы 
+            // Выделение цветом нужной страницы в меню
+            changeColorMenuItem();
 
-            // alert(window.location.href);
+            // Выделение цветом нужной услуги в сайдбаре
+            sidebarServicesChangeColor();
+
 
         });
     </script>

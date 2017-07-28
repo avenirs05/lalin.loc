@@ -13,15 +13,17 @@ page-services-epilation-photo_epilation.php
 page-services-esthetic_cosmetology.php
 page-services-esthetic_cosmetology-cosmetic_care.php
 page-services-esthetic_cosmetology-cryotherapy.php
+page-services-esthetic_cosmetology-plazmolifting.php
 page-services-esthetic_cosmetology-kontur_intim.php
-page-services-esthetic-cosmetology-plazmolifting.php
+
 
 page-services-figure_correction.php
-page-services-figure_correction-acupuncture.php
+page-services-figure_correction-weight_loss.php
+page-services-figure_correction-press_therapy.php
 page-services-figure_correction-liposuction.php
 page-services-figure_correction-massage.php
-page-services-figure_correction-press_therapy.php
-page-services-figure_correction-weight_loss.php
+page-services-figure_correction-acupuncture.php
+
 
 page-services-injection_cosmetology.php
 page-services-injection_cosmetology-biorevitalization.php
@@ -31,15 +33,14 @@ page-services-injection_cosmetology-contour_plastic.php
 page-services-injection_cosmetology-mesotherapy.php
 page-services-injection_cosmetology-plazmolifting.php
 
-
 page-services-laser_cosmetology.php
-page-services-laser_cosmetology-acne_treatment.php
-page-services-laser_cosmetology-laser_rejuve_no_skin_damage.php
 page-services-laser_cosmetology-laser_rejuve_skin_damage.php
-page-services-laser_cosmetology-photo_rejuve.php
+page-services-laser_cosmetology-laser_rejuve_no_skin_damage.php
+page-services-laser_cosmetology-acne_treatment.php
 page-services-laser_cosmetology-remove_pigment_spots.php
-page-services-laser_cosmetology-remove_vessels_on_face.php
 page-services-laser_cosmetology-removing_stretch.php
+page-services-laser_cosmetology-remove_vessels_on_face.php
+page-services-laser_cosmetology-photo_rejuve.php
 
 
 page-services-remove_skin_novelties.php

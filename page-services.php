@@ -81,7 +81,7 @@
 					<a href="page-services-esthetic_cosmetology-cryotherapy.php" target="_blank"><li>Криотерапия</li></a>
 					<a href="page-services-esthetic_cosmetology-cosmetic_care.php" target="_blank"><li>Косметический уход</li></a>
 					<a href="page-services-esthetic_cosmetology-kontur_intim.php" target="_blank"><li>Контурная интимная пластика</li></a>
-					<a href="page-services-esthetic-cosmetology-plazmolifting.php" target="_blank"><li>Плазмолифтинг в гинекологии</li></a>
+					<a href="page-services-esthetic_cosmetology-plazmolifting_gynecology.php" target="_blank"><li>Плазмолифтинг в гинекологии</li></a>
 				</ul>
         	</div>
         </div>
@@ -154,7 +154,7 @@
 			<a href="page-services-esthetic_cosmetology-cryotherapy.php" target="_blank"><li>Криотерапия</li></a>
 			<a href="page-services-esthetic_cosmetology-cosmetic_care.php" target="_blank"><li>Косметический уход</li></a>
 			<a href="page-services-esthetic_cosmetology-kontur_intim.php" target="_blank"><li>Контурная интимная пластика</li></a>
-			<a href="page-services-esthetic-cosmetology-plazmolifting.php" target="_blank"><li>Плазмолифтинг в гинекологии</li></a>
+			<a href="page-services-esthetic_cosmetology-plazmolifting_gynecology.php" target="_blank"><li>Плазмолифтинг в гинекологии</li></a>
 		</ul>
 	</div>
 

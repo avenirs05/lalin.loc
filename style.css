@@ -578,12 +578,13 @@ table.actions-limf-str {
 
 .sidebar {
 	font-size: 16px;
-	border-radius: 5px;
 	padding-left: 0;
 	padding-right: 0;
-	height: 470px;
+	/*height: 470px;*/
 	font-size: 16px;
 	background-color: #fff;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
 }
 
 .sidebar-equipment {
@@ -606,6 +607,8 @@ table.actions-limf-str {
 	padding-bottom: 10px;
 	padding-left: 20px;
 	font-size: 22px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
 }
 
 .category-content-wrap {
@@ -694,6 +697,23 @@ table.actions-limf-str {
 
 #categories-mob .category-service-wrap {
 	height: auto;
+}
+
+#all-services {
+	background-color: #7B2566; 
+	color: #fff;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 3px;
+	margin-right: 20px;
+}
+
+#our-pride {
+	background-color: #E65C9E; 
+	color: #fff;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 3px;
 }
 
 /*Модальное окно Bootstrap*/
