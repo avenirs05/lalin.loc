@@ -122,8 +122,8 @@ a {
 
 .menu-wrapper a:hover {
 	text-decoration: none;
-	background-color: #fff;
-	color: #7B2566;
+	background-color: #7B2566;
+	color: #fff;
 	border: 1px solid black;
 }
 
